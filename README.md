@@ -1,6 +1,6 @@
 # test-uniapp-web
-本仓库作为uniapp+uview2.0的前端模板,框架为[uniapp](https://uniapp.dcloud.io/), ui组件为[uview2.0](https://www.uviewui.com/components/intro.html),内置请求基于[luch-request](https://www.quanzhan.co/luch-request/)二次封装(仿fy人员版web端)
-
+本仓库作为uniapp+uview+luch-request的前端模板,框架为[uniapp](https://uniapp.dcloud.io/), ui组件为[uview](https://v1.uviewui.com/js/debounce.html),请求基于[luch-request](https://www.quanzhan.co/luch-request/)二次封装(仿fy人员版web端),有时间会搭建一个cli版的uview
+*luch-request和[uview1](https://v1.uviewui.com/js/http.html)自带的请求相比多端兼容性更好,[uview2](https://www.uviewui.com/js/http.html)使用的就是luch-request进行封装的*
 ## 项目目录
 |[目录](https://uniapp.dcloud.io/tutorial/project.html)|说明|
 |:-:|:------:|
@@ -14,6 +14,7 @@
 |static|静态资源|
 |store|全局变量|
 |styles|主题样式配置,公共样式也可放入|
+|uview-ui|组件目录|
 |App.vue|挂载页|
 |main.js|入口文件|
 |pages.json|页面路由配置..等|
@@ -58,11 +59,11 @@
 需要开启安卓手机的"开发者模式", 运行进行调试;连接手机和电脑,等hbuilderX监测到后,点击上方工具栏"运行=>运行到手机或模拟器=>选择你的手机", 可以不用真机使用模拟器,具体自行百度"uniapp使用安卓模拟器调试"
      
 ## 请求说明
-  详情见: [uview2.0请求封装说明](https://www.uviewui.com/js/http.html),[luch-request文档](https://www.quanzhan.co/luch-request/)
+  详情见: [请求说明](https://v1.uviewui.com/js/http.html)
 ## 全局变量存储说明
-  详情见: [vuex全局变量说明](https://vuex.vuejs.org/zh/),[uniapp里的本地缓存](https://uniapp.dcloud.io/api/storage/storage.html#setstorage)
+  详情见: [全局变量说明](https://v1.uviewui.com/guide/globalVariable.html)
 ## 开发说明
-  >uview内置很多工具, 非必要不用额外引入. [工具](https://www.uviewui.com/js/debounce.html)
+  >uview内置很多工具, 非必要不用额外引入. [工具](https://v1.uviewui.com/js/debounce.html)
 
   >pages.json和mainfest.json配置说明[文档](https://uniapp.dcloud.io/collocation/pages.html)
 

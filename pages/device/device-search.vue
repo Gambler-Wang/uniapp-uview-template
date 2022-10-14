@@ -1,13 +1,13 @@
 <template>
   <view class="device-search-container">
     <view class="top-nav">
-      <u-navbar autoBack placeholder leftIconSize="42rpx" title=" " border>
-        <view class="slot-wrap" slot="center">
+      <u-navbar :is-back="false" title="" :border-bottom="false">
+        <view class="slot-wrap">
           <u-search
             shape="square"
             placeholder="请输入关键字"
             v-model="keyword"
-            actionText="取消"
+            action-text="取消"
             @custom="quit"
           ></u-search>
         </view>
@@ -42,6 +42,7 @@ export default {
       display: flex;
       align-items: center;
       justify-content: space-between;
+      flex: 1;
       padding: 0 30rpx;
       .title {
         font-size: 36rpx;
@@ -96,7 +97,7 @@ export default {
       .handle {
         flex: 1;
         text-align: right;
-        color: $u-primary;
+        color: $u-type-primary;
         font-size: 28rpx;
       }
     }
