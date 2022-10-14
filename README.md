@@ -1,5 +1,5 @@
 # test-uniapp-web
-本仓库作为uniapp+uview2.0的前端模板,框架为[uniapp](https://uniapp.dcloud.io/), ui组件为[uview2.0](https://www.uviewui.com/components/intro.html),内置请求基于[luch-request](https://www.quanzhan.co/luch-request/)二次封装(仿fy人员版web端)
+本仓库作为uniapp+uview2.0的前端模板,框架为[uniapp](https://uniapp.dcloud.io/), ui组件为[uview2.0](https://www.uviewui.com/components/intro.html),内置请求基于[luch-request](https://www.quanzhan.co/luch-request/)二次封装,相逢即是缘，记得star，谢
 
 ## 项目目录
 |[目录](https://uniapp.dcloud.io/tutorial/project.html)|说明|
